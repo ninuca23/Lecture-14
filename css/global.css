@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.s-2, .container {
+  max-width: 1242px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  padding-top: 33px;
+}
+.container nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center no-wrap;
+  flex-wrap: "";
+  gap: 50px;
+}
+.container nav a {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #636060;
+  font-weight: 400px;
+  font-size: 17px;
+}
+
+.s-1 {
+  height: 606px;
+  margin-top: 31px;
+  background-image: url(../../images/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: no-wrap;
+}
+.s-1 h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 79px;
+  font-weight: 700;
+  color: white;
+}
+.s-1 p {
+  font-family: "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.s-2 {
+  margin-top: 84px;
+}
+.s-2 .para {
+  width: 235px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #636060;
+  margin-right: 50px;
+}
+.s-2 h2 {
+  font-size: 17px;
+  font-weight: 400;
+}
+.s-2 h1 {
+  color: #010101;
+  font-size: 28px;
+  margin-top: 9px;
+  margin-bottom: 37px;
+}
+.s-2 p {
+  font-size: 18px;
+  font-weight: 400;
+  height: 115px;
+  line-height: 23px;
+}
+.s-2 .cards {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 33px;
+}
+.s-2 .card {
+  width: 286px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #636060;
+}
+.s-2 .card h2 {
+  color: #343232;
+  margin: 23px 0 9px;
+}/*# sourceMappingURL=global.css.map */

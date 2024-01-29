@@ -1,0 +1,47 @@
+.s-2 {
+    @extend %maincontainer;
+    margin-top: 84px;
+    .para {
+        width: 235px;
+        font-family: $main-font;
+        color: $main-color;
+        margin-right: 50px;
+    }
+
+    h2 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    h1 {
+        color: #010101;
+        font-size: 28px;
+        margin-top: 9px;
+        margin-bottom: 37px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        height: 115px;
+        line-height: 23px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap:33px;
+    }
+
+    .card {
+        width:286px;
+        font-family: $main-font;
+        color: $main-color;
+
+        h2 {
+            color: $head-color;
+            margin: 23px 0 9px;
+        }
+    }
+}
+
