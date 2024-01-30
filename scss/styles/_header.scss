@@ -2,12 +2,19 @@
     @extend %maincontainer;
     @include mainflex(row, space-between, center, no-wrap);
     padding-top: 33px;
-
     nav {
+
+        @media (max-width:750px) {
+            display: none;
+        }
+
         ul {
             @include mainflex(row, space-between, center no-wrap);
             gap: 50px;
+
         }
+
+
 
         a {
             font-family: $main-font;
@@ -15,5 +22,15 @@
             font-weight: 400px;
             font-size: 17px;
         }
+
     }
 }
+
+.fa-bars {
+    display: none;
+    cursor: pointer;
+    @media (max-width: 750px) {
+    
+            display: block;
+        }
+    }

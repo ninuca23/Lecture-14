@@ -66,6 +66,11 @@ a {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 1300px) {
+  .s-2, .container {
+    width: 90%;
+  }
+}
 
 .container {
   display: flex;
@@ -74,6 +79,11 @@ a {
   align-items: center;
   flex-wrap: no-wrap;
   padding-top: 33px;
+}
+@media (max-width: 750px) {
+  .container nav {
+    display: none;
+  }
 }
 .container nav ul {
   display: flex;
@@ -90,6 +100,16 @@ a {
   font-size: 17px;
 }
 
+.fa-bars {
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 750px) {
+  .fa-bars {
+    display: block;
+  }
+}
+
 .s-1 {
   height: 606px;
   margin-top: 31px;
@@ -101,17 +121,47 @@ a {
   align-items: center;
   flex-wrap: no-wrap;
 }
+@media (max-width: 1000px) {
+  .s-1 {
+    background-position: center;
+  }
+}
+@media (max-width: 300px) {
+  .s-1 {
+    background-position: center;
+  }
+}
 .s-1 h1 {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 79px;
   font-weight: 700;
   color: white;
 }
+@media (max-width: 900px) {
+  .s-1 h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .s-1 h1 {
+    font-size: 20px;
+  }
+}
 .s-1 p {
   font-family: "Helvetica Neue", sans-serif;
   color: white;
   font-weight: 400;
   font-size: 19px;
+}
+@media (max-width: 900px) {
+  .s-1 p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 300px) {
+  .s-1 p {
+    font-size: 8px;
+  }
 }
 
 .s-2 {
@@ -136,19 +186,36 @@ a {
 .s-2 p {
   font-size: 18px;
   font-weight: 400;
-  height: 115px;
   line-height: 23px;
 }
 .s-2 .cards {
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
   flex-wrap: wrap;
   gap: 33px;
+}
+@media (max-width: 1050px) {
+  .s-2 .cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 300px) {
+  .s-2 .cards {
+    width: 150px;
+  }
 }
 .s-2 .card {
   width: 286px;
   font-family: "Helvetica Neue", sans-serif;
   color: #636060;
+}
+@media (max-width: 300px) {
+  .s-2 .card {
+    width: 150px;
+  }
 }
 .s-2 .card h2 {
   color: #343232;
