@@ -2,6 +2,16 @@
     @extend %maincontainer;
     @include mainflex(row, space-between, center, no-wrap);
     padding-top: 33px;
+
+    .fa-bars {
+        display: none;
+        cursor: pointer;
+        @media (max-width: 750px) {
+        
+                display: block;
+            }
+        }
+        
     nav {
 
         @media (max-width:750px) {
@@ -25,12 +35,3 @@
 
     }
 }
-
-.fa-bars {
-    display: none;
-    cursor: pointer;
-    @media (max-width: 750px) {
-    
-            display: block;
-        }
-    }
